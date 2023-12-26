@@ -1,0 +1,89 @@
+/* Add a unique style for each tab button */
+#super-smtp-settings-tab {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#super-test-email-tab {
+    background-color: #008CBA;
+    color: white;
+}
+
+#super-email-log-tab {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Style the password checkbox */
+#show_password {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Style the test email form */
+.tab-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.tab-container input[type="email"],
+.tab-container input[type="text"],
+.tab-container textarea {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.tab-container textarea {
+    resize: vertical;
+}
+
+/* Style the submit button */
+.tab-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the success and error notices */
+.notice-success,
+.notice-error {
+    margin-top: 20px;
+}
+
+/* Add border and padding to the tab content */
+.super-tab-content {
+    border: 1px solid #2be213;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#super-email-log {
+    max-width: 1000px;
+    margin-top: 10px;
+}
+
+#super-email-log table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#super-email-log th,
+#super-email-log td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#super-email-log th {
+    background-color: #f5f5f5;
+}
