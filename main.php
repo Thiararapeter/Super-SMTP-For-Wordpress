@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Super SMTP
+ * @package Super SMTP Plugin
  * @version 3.1.0
  *
  * Plugin Name: Super SMTP Plugin
@@ -37,15 +37,14 @@ function super_smtp_enqueue_scripts() {
 }
 add_action('admin_enqueue_scripts', 'super_smtp_enqueue_scripts');
 
-//update checker code
 require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/Thiararapeter/Super-SMTP',
-    __FILE__,
-    'Super-SMTP'
- );
+	'https://github.com/Thiararapeter/Super-SMTP',
+	__FILE__,
+	'Super SMTP Plugin'
+);
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
