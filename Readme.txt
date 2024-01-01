@@ -4,7 +4,7 @@ Donate link: [Support Super SMTP Plugin](https://github.com/Thiararapeter/Super-
 Tags: email, mail, smtp, phpmailer
 Requires at least: 6.4
 Tested up to: 6.4.2
-Stable tag: 3.1.1
+Stable tag: 3.1.6
 Contributors: thiarara
 License: GPLv2 or later
 License URI: [GPL-2.0](http://www.gnu.org/licenses/gpl-2.0.html)
@@ -55,8 +55,7 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 3. Browse for the plugin file (`super-smtp.zip`) on your computer.
 4. Click "Install Now" and then hit the activate button.
 
-== Frequently Asked Questions ==
-## Frequently Asked Questions (FAQ)
+== Frequently Asked Questions (FAQ) ==
 
 ### Q: What is Super SMTP?
 **A:** Super SMTP is a WordPress plugin that enhances email functionality by allowing you to configure and use a custom SMTP server for sending emails from your WordPress site.
