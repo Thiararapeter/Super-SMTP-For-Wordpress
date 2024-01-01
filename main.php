@@ -1,23 +1,35 @@
 <?php
+
 /**
- * @package Super SMTP
- * @version 3.1.9
+ * The plugin bootstrap file
  *
- * Plugin Name: Super SMTP Plugin
- * Plugin URI: https://github.com/Thiararapeter/Super-SMTP
- * Description: Super Mailer SMTP is an open-source WordPress plugin that empowers you to enhance email delivery reliability through SMTP. Say goodbye to email delivery issues and take control of your email notifications. Easily configure your SMTP settings, send test emails, and keep a watchful eye on your email logs—all from a user-friendly interface.
- * Version: 3.1.9
- * Author: Thiarara
- * Author URI: https://github.com/Thiararapeter
- * License: GPLv2 or later
- * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * Support Email: contact@thiarara.co.ke
- * Requires at least: 4.9
- * Requires PHP: 5.2.4
- * 
- * About the Developer:
- * Thiarara, the developer behind Super Mailer SMTP, is a dedicated and experienced WordPress enthusiast who is passionate about improving the email communication experience for WordPress users. With a commitment to open-source development, Thiarara has made this plugin freely available for the WordPress community.
+ * This file is read by WordPress to generate the plugin information in the plugin
+ * admin area. This file also includes all of the dependencies used by the plugin,
+ * registers the activation and deactivation functions, and defines a function
+ * that starts the plugin.
+ *
+ * @link              https://https://github.com/Thiararapeter
+ * @since             1.0.0
+ * @package           Super_Smtp
+ *
+ * @wordpress-plugin
+ * Plugin Name:       Super SMTP
+ * Plugin URI:        https://https://github.com/Thiararapeter/Super-SMTP
+ * Description:       Super Mailer SMTP is an open-source WordPress plugin that empowers you to enhance email delivery reliability through SMTP. Say goodbye to email delivery issues and take control of your email notifications. Easily configure your SMTP settings, send test emails, and keep a watchful eye on your email logs—all from a user-friendly interface.
+ * Version:           3.1.11
+ * Author:            Thiarara
+ * Author URI:        https://https://github.com/Thiararapeter/
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       super-smtp
+ * Domain Path:       /languages
  */
+
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
 
 // Include the configuration settings
 require_once plugin_dir_path(__FILE__) . 'Includes/config.php';
@@ -45,6 +57,3 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 	__FILE__,
 	'Super SMTP'
 );
-
-//Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('main');

@@ -1,26 +1,31 @@
 <?php
+
 /**
  * Fired when the plugin is uninstalled.
  *
- * @link       https://github.com/Thiararapeter/super-smtp-pro
- * @since      3.0.2
+ * When populating this file, consider the following flow
+ * of control:
  *
- * @package    Super_SMTP_Pro
+ * - This method should be static
+ * - Check if the $_REQUEST content actually is the plugin name
+ * - Run an admin referrer check to make sure it goes through authentication
+ * - Verify the output of $_GET makes sense
+ * - Repeat with other user roles. Best directly by using the links/query string parameters.
+ * - Repeat things for multisite. Once for a single site in the network, once sitewide.
+ *
+ * This file may be updated more in future version of the Boilerplate; however, this is the
+ * general skeleton and outline for how the file should work.
+ *
+ * For more information, see the following discussion:
+ * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
+ *
+ * @link       https://https://github.com/Thiararapeter
+ * @since      1.0.0
+ *
+ * @package    Super_Smtp
  */
 
 // If uninstall not called from WordPress, then exit.
-if (!defined('WP_UNINSTALL_PLUGIN')) {
-    exit;
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
+	exit;
 }
-
-// Perform uninstall actions here, if any.
-// ...
-
-// For example, delete options and data stored by the plugin.
-delete_option('super_smtp_plugin_option1');
-delete_option('super_smtp_plugin_option2');
-
-// You may also want to drop custom database tables if any.
-global $wpdb;
-$custom_table_name = $wpdb->prefix . 'your_custom_table';
-$wpdb->query("DROP TABLE IF EXISTS $custom_table_name");

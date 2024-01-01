@@ -1,4 +1,4 @@
-=== Super SMTP Plugin ===
+=== Super SMTP ===
 Contributors: thiarara
 Donate link: [Support Super SMTP Plugin](https://github.com/Thiararapeter/Super-SMTP)
 Tags: email, mail, smtp, phpmailer
@@ -49,18 +49,18 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 - Formidable Forms
 - Contact Form by BestWebSoft
 
+**Contributors:**
+- [Thiarara](https://profiles.wordpress.org/thiarara/)
+
+"Super SMTP" is open-source software. The listed contributor has contributed to this plugin.
+
 == Installation ==
 1. Go to the Add New plugins screen in your WordPress Dashboard.
 2. Click the upload tab.
 3. Browse for the plugin file (`super-smtp.zip`) on your computer.
 4. Click "Install Now" and then hit the activate button.
 
-**Contributors:**
-- Thiarara
-
-"Super SMTP" is open-source software. The listed contributor has contributed to this plugin.
 == Frequently Asked Questions ==
-
 No frequently asked questions were found.
 
 == Upgrade Notice ==
@@ -104,13 +104,13 @@ No upgrade notice was found.
 - **Security Update:**
   - Implemented additional security measures to enhance the overall security of the plugin.
 
-## Screenshots
 
+== Screenshots ==
 1. [Main Banner](main-banner.png)
-2. [Screenshot 1](screenshot-1.png)
+2. [Screenshot](screenshot-1.png)
 3. [Setting Page](setting-page.png)
-4. [Test Mail 1](test-mail-1.png)
-5. [Test Mail 2](test-mail-2.png)
+4. [Test Mail](test-mail-1.png)
+5. [Test Mail](test-mail-2.png)
 
 == Documentation ==
 **Guidance and Notices:**

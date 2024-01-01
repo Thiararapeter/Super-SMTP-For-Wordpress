@@ -1,5 +1,5 @@
 ## Changelog
-### [3.1.9] - 2023-12-21
+### [3.1.10] - 2023-12-21
 
 #### Bug Fixes
 - **Minor Bug Fixes:**
@@ -34,20 +34,8 @@
 - **Minor Bug Fixes:**
   - Resolved various minor bugs to ensure a smoother user experience.
 
-#### Screenshots
-1. Main Banner
-![Main Banner](main-banner.png)
-2. Screenshot 1
-![Screenshot 1](screenshot-1.png)
-3. Setting Page
-![Setting Page](setting-page.png)
-4. Test Mail 1
-![Test Mail 1](test-mail-1.png)
-5. Test Mail 2
-![Test Mail 2](test-mail-2.png)
-
 #### More Details
-For more details on the changes, please visit our [GitHub repository](https://github.com/Thiararapeter/super-smtp-pro).
+For more details on the changes, please visit our [GitHub repository](https://github.com/Thiararapeter/super-smtp).
 
 ### Need Assistance?
 Have a question or need assistance? Contact us - we're here to help!
