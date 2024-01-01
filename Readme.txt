@@ -100,11 +100,11 @@ No upgrade notice was found.
   - Implemented additional security measures to enhance the overall security of the plugin.
 
 == Screenshots ==
-1. main-banner.png
-2. screenshot-1.png
-3. setting-page.png
-4. test-mail-1.png
-5. test-mail-2.png
+1. main-banner
+2. screenshot-1
+3. setting-page
+4. test-mail-1
+5. test-mail-2
 
 == Documentation ==
 **Guidance and Notices:**
