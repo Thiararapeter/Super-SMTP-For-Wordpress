@@ -55,8 +55,7 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 3. Browse for the plugin file (`super-smtp-pro.zip`) on your computer.
 4. Click "Install Now" and then hit the activate button.
 
-== Frequently Asked Questions ==
-## Frequently Asked Questions (FAQ)
+== Frequently Asked Questions (FAQ) ==
 
 ### Q: What is Super SMTP?
 **A:** Super SMTP is a WordPress plugin that enhances email functionality by allowing you to configure and use a custom SMTP server for sending emails from your WordPress site.
@@ -78,6 +77,12 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 
 ### Q: Can I use Super SMTP for transactional emails?
 **A:** Yes, you can use Super SMTP for transactional emails, such as order confirmations and password resets. Configuring a reliable SMTP server enhances the delivery of important transactional emails.
+
+### Q: How do I configure Super SMTP for different email plugins?
+**A:** Super SMTP is designed to work seamlessly with various form and contact plugins, including Contact Form 7, Jetpack Contact Form, Visual Form Builder, Fast Secure Contact Form, Formidable Forms, and Contact Form by BestWebSoft. Simply install and activate the Super SMTP Plugin, then configure your SMTP settings in the plugin's settings page. The plugin should automatically integrate with supported email plugins.
+
+### Q: How often should I check my email logs?
+**A:** Regularly checking your email logs is recommended to stay informed about your site's email communications. It allows you to monitor the delivery status of emails, troubleshoot potential issues, and ensure the reliable functioning of your SMTP settings.
 
 Feel free to reach out to our support if you have additional questions or encounter any issues.
 
