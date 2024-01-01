@@ -40,6 +40,21 @@ Enhance email delivery reliability through SMTP with the Super SMTP Plugin. Conf
 - **Sort By Option:** Added the ability to sort email logs by date or status.
 - **Delete Log Entry:** Users can now delete specific email log entries directly from the settings page.
 
+## Installation
+1. Go to [Super SMTP Plugin](https://thiarara.co.ke/product/super-smtp/) to download the plugin.
+2. Go to the Add New plugins screen in your WordPress Dashboard.
+3. Click the upload tab.
+4. Browse for the plugin file (`super-smtp.zip`) on your computer.
+5. Click "Install Now" and then hit the activate button.
+
+## Plugin Setup
+1. After activating the Super SMTP plugin, navigate to your WordPress Dashboard.
+2. Look for the "Settings" menu on the left-hand side.
+3. Click on "Super SMTP" to access the plugin settings.
+4. Configure the necessary SMTP settings such as server address, port, username, and password.
+5. Save the changes.
+Now, your WordPress site should be configured to use the Super SMTP settings for sending emails. Make sure to test the email functionality to ensure everything is set up correctly.
+
 ## SMTP Mailer Settings
 - **SMTP Host:** Your outgoing mail server (e.g., smtp.gmail.com).
 - **SMTP Authentication:** Whether to use SMTP authentication when sending an email (True/False). If you choose to authenticate, you will also need to provide your username and password.
@@ -64,22 +79,6 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 - Fast Secure Contact Form
 - Formidable Forms
 - Contact Form by BestWebSoft
-
-## Installation
-1. Go to [Super SMTP Plugin](https://thiarara.co.ke/product/super-smtp/) to download the plugin.
-2. Go to the Add New plugins screen in your WordPress Dashboard.
-3. Click the upload tab.
-4. Browse for the plugin file (`super-smtp.zip`) on your computer.
-5. Click "Install Now" and then hit the activate button.
-
-## Plugin Setup
-1. After activating the Super SMTP plugin, navigate to your WordPress Dashboard.
-2. Look for the "Settings" menu on the left-hand side.
-3. Click on "Super SMTP" to access the plugin settings.
-4. Configure the necessary SMTP settings such as server address, port, username, and password.
-5. Save the changes.
-
-Now, your WordPress site should be configured to use the Super SMTP settings for sending emails. Make sure to test the email functionality to ensure everything is set up correctly.
 
 ## Frequently Asked Questions (FAQ)
 
