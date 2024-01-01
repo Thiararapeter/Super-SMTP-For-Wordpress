@@ -104,6 +104,8 @@ No upgrade notice was found.
 - **Security Update:**
   - Implemented additional security measures to enhance the overall security of the plugin.
 
+## Screenshots
+
 1. [Main Banner](main-banner.png)
 2. [Screenshot 1](screenshot-1.png)
 3. [Setting Page](setting-page.png)
