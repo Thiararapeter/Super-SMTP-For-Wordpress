@@ -1,12 +1,12 @@
 <?php
 /**
  * @package Super SMTP Plugin
- * @version 3.1.4
+ * @version 3.1.5
  *
  * Plugin Name: Super SMTP Plugin
  * Plugin URI: https://github.com/Thiararapeter/Super-SMTP
  * Description: Super Mailer SMTP is an open-source WordPress plugin that empowers you to enhance email delivery reliability through SMTP. Say goodbye to email delivery issues and take control of your email notifications. Easily configure your SMTP settings, send test emails, and keep a watchful eye on your email logs—all from a user-friendly interface.
- * Version: 3.1.4
+ * Version: 3.1.5
  * Author: Thiarara
  * Author URI: https://github.com/Thiararapeter
  * License: GPLv2 or later
@@ -37,7 +37,7 @@ function super_smtp_enqueue_scripts() {
 }
 add_action('admin_enqueue_scripts', 'super_smtp_enqueue_scripts');
 
-require 'plugin-update-checker/plugin-update-checker.php';
+require 'xtra/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(

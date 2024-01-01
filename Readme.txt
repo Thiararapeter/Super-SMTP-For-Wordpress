@@ -4,7 +4,7 @@ Donate link: [Support Super SMTP Plugin](https://github.com/Thiararapeter/Super-
 Tags: email, mail, smtp, phpmailer
 Requires at least: 6.4
 Tested up to: 6.4.2
-Stable tag: 3.1.3
+Stable tag: 3.1.1
 Contributors: thiarara
 License: GPLv2 or later
 License URI: [GPL-2.0](http://www.gnu.org/licenses/gpl-2.0.html)
@@ -52,10 +52,11 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 == Installation ==
 1. Go to the Add New plugins screen in your WordPress Dashboard.
 2. Click the upload tab.
-3. Browse for the plugin file (`super-smtp-pro.zip`) on your computer.
+3. Browse for the plugin file (`super-smtp.zip`) on your computer.
 4. Click "Install Now" and then hit the activate button.
 
-== Frequently Asked Questions (FAQ) ==
+== Frequently Asked Questions ==
+## Frequently Asked Questions (FAQ)
 
 ### Q: What is Super SMTP?
 **A:** Super SMTP is a WordPress plugin that enhances email functionality by allowing you to configure and use a custom SMTP server for sending emails from your WordPress site.
@@ -77,12 +78,6 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 
 ### Q: Can I use Super SMTP for transactional emails?
 **A:** Yes, you can use Super SMTP for transactional emails, such as order confirmations and password resets. Configuring a reliable SMTP server enhances the delivery of important transactional emails.
-
-### Q: How do I configure Super SMTP for different email plugins?
-**A:** Super SMTP is designed to work seamlessly with various form and contact plugins, including Contact Form 7, Jetpack Contact Form, Visual Form Builder, Fast Secure Contact Form, Formidable Forms, and Contact Form by BestWebSoft. Simply install and activate the Super SMTP Plugin, then configure your SMTP settings in the plugin's settings page. The plugin should automatically integrate with supported email plugins.
-
-### Q: How often should I check my email logs?
-**A:** Regularly checking your email logs is recommended to stay informed about your site's email communications. It allows you to monitor the delivery status of emails, troubleshoot potential issues, and ensure the reliable functioning of your SMTP settings.
 
 Feel free to reach out to our support if you have additional questions or encounter any issues.
 
@@ -126,8 +121,6 @@ No upgrade notice was found.
   - Improved the appearance and layout for better usability.
 - **Security Update:**
   - Implemented additional security measures to enhance the overall security of the plugin.
-
-### ... (Include all previous entries)
 
 == Screenshots ==
 1. Main Banner
