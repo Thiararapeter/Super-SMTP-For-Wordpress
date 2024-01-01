@@ -19,15 +19,15 @@ Enhance email delivery reliability through SMTP with the Super SMTP Plugin. Conf
 
 ## Screenshots
 1. Main Banner
-![Main Banner](Assets\screenshots\main-banner.png)
+![Main Banner](Assets/screenshots/main-banner.png)
 2. Screenshot 1
-![Screenshot 1](Assets\screenshots\screenshot-1.png)
+![Screenshot 1](Assets/screenshots/screenshot-1.png)
 3. Setting Page
-![Setting Page](Assets\screenshots\setting-page.png)
+![Setting Page](Assets/screenshots/setting-page.png)
 4. Test Mail 1
-![Test Mail 1](Assets\screenshots\test-mail-1.png)
+![Test Mail 1](Assets/screenshots/test-mail-1.png)
 5. Test Mail 2
-![Test Mail 2](Assets\screenshots\test-mail-2.png)
+![Test Mail 2](Assets/screenshots/test-mail-2.png)
 
 ## Key Features
 - **SMTP Security Enhancements:** Fortified the security of SMTP settings for even more secure email communications.
