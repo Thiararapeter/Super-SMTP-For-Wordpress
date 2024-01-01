@@ -56,7 +56,30 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 4. Click "Install Now" and then hit the activate button.
 
 == Frequently Asked Questions ==
-No frequently asked questions were found.
+## Frequently Asked Questions (FAQ)
+
+### Q: What is Super SMTP?
+**A:** Super SMTP is a WordPress plugin that enhances email functionality by allowing you to configure and use a custom SMTP server for sending emails from your WordPress site.
+
+### Q: Why do I need to use SMTP with WordPress?
+**A:** Using SMTP (Simple Mail Transfer Protocol) ensures reliable email delivery by connecting your WordPress site to a mail server. This can help avoid common email delivery issues and improve the chances of emails reaching recipients' inboxes.
+
+### Q: How do I obtain SMTP server details?
+**A:** You can obtain SMTP server details from your email hosting provider. Typically, you'll need information such as the server address, port, and authentication credentials (username and password).
+
+### Q: Can I use Super SMTP with any hosting provider?
+**A:** Yes, Super SMTP is designed to work with most hosting providers. However, it's essential to check your hosting provider's policies and ensure they allow SMTP configuration.
+
+### Q: What should I do if I encounter issues with email delivery?
+**A:** If you face problems with email delivery, double-check the SMTP settings in the plugin configuration. Ensure that the provided server details and credentials are accurate. If issues persist, contact your hosting provider's support for assistance.
+
+### Q: Is Super SMTP compatible with other email plugins?
+**A:** Compatibility may vary depending on the specific functionalities of other plugins. It's recommended to test Super SMTP with other plugins and check for any conflicts. Most commonly, Super SMTP works well alongside other plugins.
+
+### Q: Can I use Super SMTP for transactional emails?
+**A:** Yes, you can use Super SMTP for transactional emails, such as order confirmations and password resets. Configuring a reliable SMTP server enhances the delivery of important transactional emails.
+
+Feel free to reach out to our support if you have additional questions or encounter any issues.
 
 == Upgrade Notice ==
 No upgrade notice was found.
