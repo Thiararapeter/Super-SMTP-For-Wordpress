@@ -4,7 +4,7 @@ Donate link: [Support Super SMTP Plugin](https://github.com/Thiararapeter/Super-
 Tags: email, mail, smtp, phpmailer
 Requires at least: 6.4
 Tested up to: 6.4.2
-Stable tag: 3.1.6
+Stable tag: 3.1.9
 Contributors: thiarara
 License: GPLv2 or later
 License URI: [GPL-2.0](http://www.gnu.org/licenses/gpl-2.0.html)
@@ -55,7 +55,12 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 3. Browse for the plugin file (`super-smtp.zip`) on your computer.
 4. Click "Install Now" and then hit the activate button.
 
+**Contributors:**
+- Thiarara
+
+"Super SMTP" is open-source software. The listed contributor has contributed to this plugin.
 == Frequently Asked Questions ==
+
 No frequently asked questions were found.
 
 == Upgrade Notice ==
@@ -99,12 +104,11 @@ No upgrade notice was found.
 - **Security Update:**
   - Implemented additional security measures to enhance the overall security of the plugin.
 
-== Screenshots ==
-1. main-banner
-2. screenshot-1
-3. setting-page
-4. test-mail-1
-5. test-mail-2
+1. [Main Banner](main-banner.png)
+2. [Screenshot 1](screenshot-1.png)
+3. [Setting Page](setting-page.png)
+4. [Test Mail 1](test-mail-1.png)
+5. [Test Mail 2](test-mail-2.png)
 
 == Documentation ==
 **Guidance and Notices:**

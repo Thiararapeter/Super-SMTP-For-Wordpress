@@ -1,4 +1,10 @@
 ## Changelog
+### [3.1.9] - 2023-12-21
+
+#### Bug Fixes
+- **Minor Bug Fixes:**
+  - Resolved various minor bugs to ensure a smoother user experience.
+
 ### [3.0.2] - 2023-12-21
 #### New Features
 - **SMTP Security Enhancements:**
