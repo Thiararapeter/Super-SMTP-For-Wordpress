@@ -66,10 +66,21 @@ Super SMTP Plugin should work with any plugin that uses the WordPress Mail funct
 - Contact Form by BestWebSoft
 
 ## Installation
-1. Go to the Add New plugins screen in your WordPress Dashboard.
-2. Click the upload tab.
-3. Browse for the plugin file (`super-smtp-pro.zip`) on your computer.
-4. Click "Install Now" and then hit the activate button.
+1. Go to [Super SMTP Plugin](https://thiarara.co.ke/product/super-smtp/) to download the plugin.
+2. Go to the Add New plugins screen in your WordPress Dashboard.
+3. Click the upload tab.
+4. Browse for the plugin file (`super-smtp.zip`) on your computer.
+5. Click "Install Now" and then hit the activate button.
+
+## Plugin Setup
+1. After activating the Super SMTP plugin, navigate to your WordPress Dashboard.
+2. Look for the "Settings" menu on the left-hand side.
+3. Click on "Super SMTP" to access the plugin settings.
+4. Configure the necessary SMTP settings such as server address, port, username, and password.
+5. Save the changes.
+
+Now, your WordPress site should be configured to use the Super SMTP settings for sending emails. Make sure to test the email functionality to ensure everything is set up correctly.
+
 
 ## Changelog
 ### 3.0.2
